@@ -24,9 +24,9 @@ header {
 }
 
 header .logo {
-color: #000;
-font-size: 1.5rem;
-font-weight: 700;
+color: #fff;
+font-size: 2rem;
+font-weight: 300;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -37,9 +37,9 @@ header .nav {
 
 a {
     position: relative;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 500;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
@@ -48,7 +48,7 @@ a {
 header nav ul li a:before {
     content: '';
     position: absolute;
-    background: #000;
+    background: #fff;
     width: 0;
     height: 3px;
     bottom: 0;
