@@ -5,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Jockey One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 header {
@@ -20,18 +18,18 @@ header {
     align-items: center;
     padding: 15px 200px;
     transition: 0.5s ease;
-   
+
 }
 
 header .logo {
-color: #fff;
-font-size: 2rem;
-font-weight: 300;
-text-transform: uppercase;
-text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-header .nav {
+header a {
     position: relative;
 }
 
@@ -45,7 +43,7 @@ a {
     transition: 0.3s ease;
 }
 
-header nav ul li a:before {
+header .nav a:before {
     content: '';
     position: absolute;
     background: #fff;
@@ -56,12 +54,9 @@ header nav ul li a:before {
     transition: 0.3s ease;
 }
 
-header nav ul li a:hover:before {
+header .nav a:hover:before {
     width: 100%;
 }
-
-
-
 
 .video {
     z-index: 000;
