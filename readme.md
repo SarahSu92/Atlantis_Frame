@@ -1,1 +1,1 @@
-# Atlantis Frame - This is a side project under struckture!
+# This is a side project under struckture!
