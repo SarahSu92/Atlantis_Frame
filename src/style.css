@@ -18,6 +18,7 @@ header {
     align-items: center;
     transition: 0.5s ease;
     padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
 
 }
 
@@ -27,21 +28,23 @@ header .logo {
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
-    
+
 }
 
 header a {
     position: relative;
     margin-right: 10px;
+
 }
 
 .pages {
     position: relative;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     text-decoration: none;
     transition: 0.3s ease;
+
 }
 
 header .nav a:before {
@@ -66,9 +69,6 @@ header .nav a:hover:before {
     display: flex;
     justify-content: center;
     background-color: #12a1e3;
-    padding-top: 190px
-    
-    
 }
 
 .content {
@@ -79,19 +79,18 @@ header .nav a:hover:before {
 .herosection .content h1 {
     z-index: 888;
     color: #fff;
-    margin-top: 100px;
     letter-spacing: 2px;
     line-height: 40px;
     font-size: 2.3rem;
     font-weight: 50;
     text-transform: uppercase;
-    margin-left: 5px;
-    background-color: rgba(0, 0, 0, 0.9);  /* 50% opacity */
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding: 25px 25px;
-    
-    
+
+
 }
 
 .herosection .content h1 span {
@@ -103,8 +102,8 @@ header .nav a:hover:before {
 p {
     color: #fff;
     max-width: 500px;
-    margin-left: 5px;
-    background-color: rgba(0, 0, 0, 0.9);  /* 50% opacity */
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 15px 25px;
     height: 260px;
     border-bottom-left-radius: 5px;
@@ -115,64 +114,58 @@ p {
     background: #fff;
     padding: 5px 15px;
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     border-radius: 5px;
     text-decoration: none;
     position: absolute;
     margin-top: 20px;
+    transition: 0.4s ease;
 
 }
 
 .readmore:hover {
     transform: scale(1.2);
     background-color: #12a1e3;
-    transition: 0.5s ease;
+    transform: scale(1.2);
 
 }
 
 .herosection .media-icons {
     position: absolute;
-    right: 20px;
+    right: 12px;
     display: flex;
+    margin-top: 150px;
     flex-direction: column;
     transition: 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.9);  /* 50% opacity */
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 5px;
-   
+
 }
 
 .media {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 10px 15px;
     transition: 0.3s ease;
-    
+
 }
+
 .media:hover {
     transform: scale(1.3);
 }
 
-.menubtn {
-    background: url(menu.png)no-repeat;
-    background-size: 30px;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
 .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* dark transparent */
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
-    z-index: 4; /* behind sidebar */
-  }
+    z-index: 4;
+}
 
 .video {
     z-index: 0;
@@ -184,14 +177,23 @@ p {
     position: absolute;
 }
 
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
-@media screen and (max-width: 1040px){
-    .nav {
-      display: none;
-       
+
+
+@media screen and (max-width: 600px) {
+    header .logo {
+        text-shadow: 2px 5px 5px #000;
     }
 
-    .pages  {
+    .nav {
+        display: none;
+
+    }
+
+    .pages {
         background-color: #fff;
         height: 25px;
         color: #000;
@@ -202,7 +204,7 @@ p {
     header .nav a:before {
         background: #000;
     }
-    
+
     .link {
         background-color: #fff;
         display: flex;
@@ -213,9 +215,9 @@ p {
         padding: 50px;
         border-radius: 10px;
         box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
-     }
-     
-     .menubtn {
+    }
+
+    .menubtn {
         background: url('../assets/menuw.png')no-repeat;
         background-size: 30px;
         background-position: center;
@@ -224,10 +226,10 @@ p {
         cursor: pointer;
         transition: 0.3s ease;
         margin-left: auto;
-        
+
     }
 
-     .menubtn.active {
+    .menubtn.active {
         z-index: 999;
         background: url('../assets/close.png')no-repeat;
         background-size: 35px;
@@ -236,7 +238,7 @@ p {
 
     }
 
-    .nav.active{
+    .nav.active {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -246,8 +248,57 @@ p {
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, 0.5);
-       
+
     }
-  
-   
+
+    .herosection .media-icons {
+        top: 0;
+        margin-top: 90px;
+    }
+    .herosection .content h1  {
+       height: 15vh;
+       max-width: 90vw;
+       align-items: center;
+       justify-content: center;
+       font-size: 1.5rem;
+       letter-spacing: 2px;
+       line-height: 30px;
+       margin-top: 250px;
+    }
+    .herosection .content h1 span {
+        font-size: 2rem;
+
+    }
+    p {
+        height: 310px;
+        max-width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .media {
+        font-size: 1.2rem;
+
+    }
+    .herosection .media-icons {
+        right: 15px;
+    }
+    .readmore {
+        font-size: 1rem;
+    }
 }
+
+@media screen and (min-width: 600px) {
+    .herosection .content h1  {
+       margin-top: 280px;
+       max-width: 600px;
+       padding: 30px 35px;
+       height: 150px;
+     }
+     p {
+        padding: 30px 35px;
+        height: 280px;
+     }
+    
+}
+
