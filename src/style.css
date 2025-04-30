@@ -31,10 +31,17 @@ header .logo {
 
 }
 
-header a {
+header a{
     position: relative;
     margin-right: 10px;
 
+}
+
+.link {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    
 }
 
 .pages {
@@ -61,6 +68,7 @@ header .nav a:before {
 header .nav a:hover:before {
     width: 100%;
 }
+
 
 .herosection {
     position: relative;
@@ -226,11 +234,19 @@ p {
         cursor: pointer;
         transition: 0.3s ease;
         margin-left: auto;
+        border: none;
 
     }
 
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: flex;
+        gap: 20px;
+    }
+
     .menubtn.active {
-        z-index: 999;
         background: url('../assets/close.png')no-repeat;
         background-size: 35px;
         background-position: center;
@@ -277,7 +293,7 @@ p {
     }
 
     .media {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
 
     }
     .herosection .media-icons {
