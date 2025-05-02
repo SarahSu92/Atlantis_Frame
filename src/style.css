@@ -225,7 +225,7 @@ p {
     }
 
     .menubtn {
-        background: url('/menuw.png')no-repeat;
+        background: url('/public/menuw.png')no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
