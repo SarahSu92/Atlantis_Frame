@@ -226,7 +226,7 @@ p {
     }
 
     .menubtn {
-        background: url('/Atlantis_Frame/public/menuw.png')no-repeat;
+        background: url('/public/menuw.png')no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -247,7 +247,7 @@ p {
     }
 
     .menubtn.active {
-        background: url('/Atlantis_Frame/public/close.png')no-repeat;
+        background: url('/public/close.png')no-repeat;
         background-size: 35px;
         background-position: center;
         transition: 0.3s ease;
