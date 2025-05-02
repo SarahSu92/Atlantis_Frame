@@ -11,4 +11,9 @@ if (menubtn && nav) {
     });
 }
 
-
+// Example articles below hero section
+const article = document.querySelector('#example')as HTMLElement;
+article.innerHTML += `
+<div> Hello wolrd</div>
+<div> Hello</div>
+`;
