@@ -246,7 +246,7 @@ p {
     }
 
     .menubtn.active {
-        background: url('/close.png')no-repeat;
+        background: url('/public/close.png')no-repeat;
         background-size: 35px;
         background-position: center;
         transition: 0.3s ease;
