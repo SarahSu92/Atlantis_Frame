@@ -18,7 +18,7 @@ header {
     align-items: center;
     transition: 0.5s ease;
     padding: 15px 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -93,7 +93,7 @@ header .nav a:hover:before {
     font-weight: 50;
     text-transform: uppercase;
     margin-left: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding: 25px 25px;
@@ -111,7 +111,7 @@ p {
     color: #fff;
     max-width: 500px;
     margin-left: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 15px 25px;
     height: 260px;
     border-bottom-left-radius: 5px;
@@ -144,7 +144,7 @@ p {
     display: flex;
     flex-direction: column;
     transition: 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 
 }
@@ -152,7 +152,7 @@ p {
 .media {
     color: #fff;
     font-size: 1.8rem;
-    padding: 10px 15px;
+    padding: 10px 10px;
     transition: 0.3s ease;
 
 }
@@ -186,7 +186,7 @@ p {
 }
 
 .footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -226,7 +226,7 @@ p {
     }
 
     .menubtn {
-        background: url('/assets/close.png')no-repeat;
+        background: url('/public/menuw.png')no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -247,7 +247,7 @@ p {
     }
 
     .menubtn.active {
-        background: url('/assets/menuw.png')no-repeat;
+        background: url('/public/close.png')no-repeat;
         background-size: 35px;
         background-position: center;
         transition: 0.3s ease;

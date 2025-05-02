@@ -11,14 +11,6 @@ if (menubtn && nav) {
     });
 }
 
-document.addEventListener('touchstart', () => {
-    const video = document.querySelector('video') as HTMLVideoElement | null;
-    if (video && video.paused) {
-      video.play().catch((err) => {
-        console.error('Video failed to play:', err);
-      });
-    }
-  }, { once: true });
 
 // Example articles below hero section
 const article = document.querySelector('#example')as HTMLElement;
