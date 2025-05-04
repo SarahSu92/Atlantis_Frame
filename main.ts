@@ -1,9 +1,10 @@
+import './style.css'
 
 console.log('hej');
 
 //Navigation menu
-const menubtn = document.querySelector('.menubtn');
-const nav = document.querySelector('.nav');
+const menubtn = document.querySelector('.menubtn') as HTMLElement | null;
+const nav = document.querySelector('.nav')as HTMLElement | null;
 
 if (menubtn && nav) {
     menubtn.addEventListener("click", () => {
@@ -14,7 +15,7 @@ if (menubtn && nav) {
 
 
 // Example articles below hero section
-const article = document.querySelector('#example');
+const article = document.querySelector('#example')as HTMLElement;
 article.innerHTML += `
 <div> Hello wolrd</div>
 <div> Hello</div>
