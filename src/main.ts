@@ -1,5 +1,7 @@
 import './style.css'
 
+console.log('hej');
+
 //Navigation menu
 const menubtn = document.querySelector('.menubtn') as HTMLElement | null;
 const nav = document.querySelector('.nav')as HTMLElement | null;
