@@ -71,8 +71,7 @@ header .nav a:hover:before {
 
 
 .herosection {
-    position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -146,6 +145,7 @@ p {
     transition: 0.5s ease;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    margin-right: 10px;
 
 }
 
@@ -165,7 +165,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
@@ -177,7 +177,7 @@ p {
 .video {
     z-index: 0;
     object-fit: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
@@ -191,7 +191,7 @@ p {
 
 
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 600px) {
     header .logo {
         text-shadow: 2px 5px 5px #000;
     }
@@ -233,8 +233,9 @@ p {
         height: 40px;
         cursor: pointer;
         transition: 0.3s ease;
-        margin-left: auto;
         border: none;
+        position: absolute;
+        right: 10px;
 
     }
 
@@ -271,6 +272,7 @@ p {
         top: 0;
         margin-top: 90px;
     }
+
     .herosection .content h1  {
        height: 15vh;
        max-width: 90vw;
@@ -321,7 +323,14 @@ p {
 
      a.logo {
         margin-left: 25px;
+        margin-right: 0;
      }
+
+     .herosection .media-icons {
+        margin-top: 100px;
+     }
+
+
     
 }
 
